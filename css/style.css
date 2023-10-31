@@ -525,7 +525,7 @@ header .menu {
 }
 .footer .container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, auto));
+  grid-template-columns: repeat(auto-fit, minmax(270px, auto));
   gap: 20px;
 }
 .footer .container .box h2 {
@@ -584,6 +584,7 @@ header .menu {
     background: #224bcf;
     clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
     transition: 0.3s;
+    z-index: 1;
   }
   header .navbar.active {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
